@@ -6,6 +6,7 @@
         height: 500px;
     }
     #imagem{
+        background-image: url(../images/image-product-desktop.jpg);
         float: left;
         width:50%;
         height:600px;
