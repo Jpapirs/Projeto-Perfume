@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+@media screen and (min-width: 500px) {
+    section{
+        width: 800px;
+        height: 500px;
+    }
+    #imagem{
+        float: left;
+        width:50%;
+        height:600px;
+        background-size: cover;
+        background-position: top center;
+    }
+    #perfume{
+        float: right;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    #principal{
+        float: right;
+        width: 50%;
+    }
+    #principal h1{
+        padding: 10px;
+        font-size: 3em;
+    }
+    #principal p{
+        font-size: 1.1em;
+    }
+    #valor{
+        margin-bottom: 10px;
+    }
+    input{
+        margin-top: 10px;
+    }
+}

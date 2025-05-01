@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+/*
+## Colors
+
+### Primary
+
+- Green 500: hsl(158, 36%, 37%)
+- Green 700: hsl(158, 42%, 18%)
+
+### Neutral
+
+- Black: hsl(212, 21%, 14%)
+- Grey: hsl(228, 12%, 48%)
+- Cream: hsl(30, 38%, 92%)
+- White: hsl(0, 0%, 100%)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body,html{
+    height: 100vh;
+    width: 100vw;
+    background-color:hsl(30, 38%, 92%) ;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    transition:width .3s,height .3s ;
+    transition-timing-function: ease;
+}
+
+#imagem{
+    background-color: black;
+    background-image: url(../images/image-product-mobile.jpg);
+    height: 200px;
+    margin: -15px;
+    background-size: cover;
+    display: block;
+}
+#perfume{
+    display: block;
+    font-family:Montserrat;
+    color:hsl(228, 12%, 48%);
+    letter-spacing: 0.3em;
+    font-size: .8em;
+    margin-top: 15px;
+}
+#principal h1{
+    text-align: center;
+    font-family: Fraunces;
+    box-sizing: border-box;
+
+}
+
+#principal p{
+    font-family:Montserrat;
+    font-weight: 500;
+    color:hsl(228, 12%, 48%);
+}
+#valor{
+    display: block;
+    font-family:Fraunces ;
+    color: hsl(158, 36%, 37%);
+    width: 100%;
+    margin-top:10px;
+    padding: 10px;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+input{
+    font-family:Montserrat ;
+    background-color:hsl(158, 36%, 37%);
+    border: none;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 10px;
+}
+input:hover{
+    background-color:hsl(158, 42%, 18%) ;
+    cursor: pointer;
+}
+
